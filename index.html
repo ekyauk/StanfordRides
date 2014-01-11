@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Stanford Rides</title>
+
+	</head>
+	<body>
+		<form action="server.py" method="post">
+			First name: <input type="text" name="firstname"><br>
+			Last name: <input type="text" name="lastname"><br>
+			<select name="request_type">
+			  <option value="driver">I'm driving</option>
+			  <option value="rider">I need a ride</option>
+			</select><br>
+			City of Departure: <input type="text" name="destination"><br>
+			City of Destination: <input type="text" name="destination"><br>
+			Date: <input type="text" name="departDate"><br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
