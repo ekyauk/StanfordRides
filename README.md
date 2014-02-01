@@ -1,0 +1,1 @@
+This application began as hackathon idea among some friends; however, we didn't see much progress at the hackathon (we ended up coming up with things like what's in the "edwin_site" folder) and since then it's been a side project/destresser for me as I explore different technologies.
